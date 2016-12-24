@@ -1,0 +1,30 @@
+{% extends "dashboards/base.html" %}
+{% load static  %}
+
+{% block css %}
+	{{block.super}}
+	
+
+	<link rel="stylesheet" type="text/css" href='{% static "css/dashboards.css" %}' >
+{% endblock css %}
+
+{% block javascript %}
+    
+	{{block.super}}
+	{{script|safe}}
+	
+{% endblock javascript %}
+
+{% block content %}
+	<h2>Choose one kind of chart for our training dataset </h2>
+	<ul>
+		<li><a href="#"></a>Bar</li>
+		<li><a href="#"></a>Pie (Donut)</li>
+	</ul>
+	{{div|safe}}
+	
+	
+	
+{% endblock content %}
+
+
