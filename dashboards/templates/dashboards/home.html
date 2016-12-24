@@ -1,0 +1,13 @@
+{% extends "dashboards/base.html" %}
+
+{% load static  %}
+
+{% block content %}
+	{% for dataset in datasets %}
+	<div>
+		<a href="{% url 'dashboards:index' 'sedec' %}"><h4>{{ dataset.name }}</h4></a>
+
+		<p>{{ dataset.description }}</p>
+	</div>
+{% endfor %}
+{% endblock content %}

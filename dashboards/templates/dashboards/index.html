@@ -11,17 +11,25 @@
 {% block javascript %}
     
 	{{block.super}}
-	{{script|safe}}
+
+	{% if script %}
+		{{script|safe}}
+	{% endif %}
+	
 	
 {% endblock javascript %}
 
 {% block content %}
 	<h2>Choose one kind of chart for our training dataset </h2>
 	<ul>
-		<li><a href="#"></a>Bar</li>
-		<li><a href="#"></a>Pie (Donut)</li>
+		<li><a href="{% url 'dashboards:index' 'sedec' 'bar' %}">Bar</li></a>
+		<li><a href="{% url 'dashboards:index' 'sedec' 'donut' %}">Pie (Donut)</li></a>
 	</ul>
-	{{div|safe}}
+
+	{% if div %}
+		{{div|safe}}
+	{% endif %}
+	
 	
 	
 	
