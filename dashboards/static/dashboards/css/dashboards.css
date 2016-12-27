@@ -1,0 +1,34 @@
+.choice {
+	background: green;
+}
+
+#project-title{
+	text-align: center;
+   
+    font-size: 60px;
+    
+}
+
+#project-core-text{
+	font-size: 18px;
+}
+
+.dataset-title{
+	background-color: #303F9F;
+	color: #FFFFFF;
+	margin-right: 1%;
+}
+
+.dataset-title:hover{
+	background-color: #3F51B5;
+}
+
+.dataset-url{
+	color:#FFFFFF;
+
+}
+
+.dataset-url:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+}

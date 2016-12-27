@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +13,7 @@
 	{% block css %}
 		<link href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" rel="stylesheet" type="text/css">
 		<link href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.3.min.css" rel="stylesheet" type="text/css">
+		<link href="{% static "webSedec/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet" type="text/css">
 	{% endblock css %}
 
 </head>

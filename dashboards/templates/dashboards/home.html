@@ -2,12 +2,25 @@
 
 {% load static  %}
 
-{% block content %}
-	{% for dataset in datasets %}
-	<div>
-		<a href="{% url 'dashboards:index' 'sedec' %}"><h4>{{ dataset.name }}</h4></a>
+{% block css %}
+ 	{{block.super}}
+	<link href="{% static "dashboards/css/dashboards.css" %}" rel="stylesheet" type="text/css">
+ 
+{% endblock css %}
 
-		<p>{{ dataset.description }}</p>
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		<h2  id="project-title">Recife visu</h2>
+		</div>
+
+		<p id="project-core-text" class="col-md-12">Este projeto foi criado por felipe henrique de almeida bormann de forma a fornecer a população de recife e profissionais de comunicações gráficos interessantes sobre a cidade de Recife. <br> Espero que outras pessoas baixem meus gráficos e o usem da melhor forma possível para fornecer informações sobre a cidade</p>
 	</div>
-{% endfor %}
+	{% for dataset in datasets %}
+		{% include "dashboards/dataset_card.html" %}
+	
+	{% endfor %}
+</div>
+
 {% endblock content %}
