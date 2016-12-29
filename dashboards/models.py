@@ -14,6 +14,7 @@ class DataSet(models.Model):
 class Variable(models.Model):
 	name = models.CharField("nome", max_length= 200)
 	dataset = models.ForeignKey(DataSet)
+	variable_type = models.CharField("type", max_length= 200)
 
 class DashBoard(models.Model):
 	title = models.CharField("Titulo", max_length= 200,unique=True)

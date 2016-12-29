@@ -1,30 +1,54 @@
 from bokeh.charts import Donut, Bar, show, output_file
 from bokeh.embed import file_html, components
 from bokeh.resources import CDN
-
+import numpy as np
 import pandas as pd
 
 import os
-        
-def make_chart(dataset_path, chart_type,  var_name = None, threshold = 0.01):
-    if chart_type == 'bar':
-        return bar_chart(dataset_path, var_name, threshold)
-    elif chart_type == 'donut':
-        return donut_chart(dataset_path, var_name, threshold)
 
-def bar_chart(dataset_path, var_name = None, threshold = 0.01):
+
+def return_variables_types(dataset_path, var_name):
+    data = pd.read_csv(dataset_path, sep=';', encoding='latin-1')
+    
+    if var_name is None:
+        var_name = data.columns.tolist()[0]
+       
+    var_type = data[var_name].dtype
+
+    if var_type == np.int64: #which means there is no chart_type available
+        chart_types = []
+        chart_types.append("bar")
+        chart_types.append('donut')
+    return chart_types
+
+        
+def make_chart(dataset_path, chart_type = "",  var_name = None, threshold = 0.01):
+    data = pd.read_csv(dataset_path, sep=';', encoding='latin-1')
+    print("ok")
+    if var_name is None:
+        var_name = data.columns.tolist()[0]
+       
+    var_type = data[var_name].dtype
+    
+    if var_type == np.int64 and chart_type == "": #which means there is no chart_type available
+        chart_type = "bar"
+
+    if chart_type == 'bar':
+        return bar_chart(data[var_name], threshold, var_name)
+    elif chart_type == 'donut':
+        return donut_chart(data[var_name], var_name, threshold)
+
+def bar_chart(data, threshold = 0.001, var_name = ""):
     """
         dataset_path : The path to the dataset we're trying to build
         var_name : The name of the variable we are choosing to display a bar chart about
     """
     
-    data = pd.read_csv(dataset_path, sep=';', encoding='latin-1')
-    if var_name is None:
-        var_name = data.columns.tolist()[0]
+   
         
     statistics = {}
 
-    for item in data[var_name]:
+    for item in data:
         if item in statistics.keys():
             statistics[item] = statistics[item]+1
         else:
@@ -47,15 +71,13 @@ def bar_chart(dataset_path, var_name = None, threshold = 0.01):
     return script, div
 
 
-def donut_chart(dataset_path, var_name, threshold= 0.01):
+def donut_chart(data, var_name,  threshold= 0.01):
     
     statistics = {}
-    data = pd.read_csv(dataset_path, sep=';', encoding='latin-1')
 
-    if var_name is None:
-        var_name = data.columns.tolist()[0]
+
         
-    for item in data[var_name]:
+    for item in data:
         if item in statistics.keys():
             statistics[item] = statistics[item]+1
         else:
