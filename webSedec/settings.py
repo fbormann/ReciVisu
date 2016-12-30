@@ -25,7 +25,7 @@ SECRET_KEY = '(*c9whw*owp@pibvb(g0x4lkl6bk=4s434srmwt1qyszijbo=j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['powerful-hamlet-49115.herokuapp.com']
 
 
 # Application definition
