@@ -48,7 +48,7 @@ class DatasetDetailView(DetailView):
         context['variables'] = variables
         if len(variables) == 0 and len(dataset_data) > 0:
             data = pd.read_csv(dataset_data[0].url, sep=";", encoding="latin-1")
-            print("vim aqui")
+            
             for item in data.columns:
 
                 v = Variable(name=item, dataset = dataset)

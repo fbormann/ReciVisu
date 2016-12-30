@@ -24,7 +24,7 @@ def return_variables_types(dataset_path, var_name):
         
 def make_chart(dataset_path, chart_type = "",  var_name = None, threshold = 0.01):
     data = pd.read_csv(dataset_path, sep=';', encoding='latin-1')
-    print("ok")
+    
     if var_name is None:
         var_name = data.columns.tolist()[0]
        
