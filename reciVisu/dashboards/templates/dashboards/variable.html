@@ -1,0 +1,40 @@
+{% extends "dashboards/base.html" %}
+
+{% load static  %}
+
+{% block javascript %}
+    
+	{{block.super}}
+
+	{% if script %}
+		{{script|safe}}
+	{% endif %}
+	
+	
+{% endblock javascript %}
+
+{% block css %}
+ 	{{block.super}}
+	<link href="{% static "dashboards/css/dashboards.css" %}" rel="stylesheet" type="text/css">
+ 
+{% endblock css %}
+
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		<h2>{{variable.name}}</h2>
+		</div>
+	</div>
+	
+</div>
+
+{% for chart_type in chart_types %}
+	<a href="{% url 'dashboards:plot_variable' dataset_name variable_name chart_type %}"><p>{{chart_type}}</p></a>
+{% endfor %}
+
+{% if div %}
+		{{div|safe}}
+	{% endif %}
+
+{% endblock content %}

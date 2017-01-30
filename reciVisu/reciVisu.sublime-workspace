@@ -1,0 +1,714 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Model",
+				"Model\tModel"
+			],
+			[
+				"tag",
+				"tag_amount"
+			],
+			[
+				"tags",
+				"tags_list"
+			],
+			[
+				"coor",
+				"coordinators__pk"
+			],
+			[
+				"HttpRes",
+				"HttpResponseRedirect"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Subject",
+				"SubjectSubscribeView"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"coordi",
+				"coordinators__pk"
+			],
+			[
+				"sub",
+				"subject_category"
+			],
+			[
+				"vali",
+				"ValidationError"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"subscr",
+				"subscribe_begin"
+			],
+			[
+				"subs",
+				"subscribe_begin"
+			],
+			[
+				"subscri",
+				"subscribe_end"
+			],
+			[
+				"subscribe",
+				"subscribe_begin"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"id_",
+				"id_modal"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"chart",
+				"chart_type"
+			],
+			[
+				"var",
+				"var_type"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Data",
+				"DatasetAdmin"
+			],
+			[
+				"Dele",
+				"DeleteCategory"
+			],
+			[
+				"su",
+				"subjects"
+			],
+			[
+				"Marke",
+				"MarkerAdmin"
+			],
+			[
+				"Subj",
+				"SubjectForm"
+			],
+			[
+				"Cate",
+				"Category"
+			],
+			[
+				"Categ",
+				"CategoryForm"
+			],
+			[
+				"Sub",
+				"EMAIL_SUBJECT_PREFIX"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"category",
+				"Category"
+			],
+			[
+				"home",
+				"HomeView"
+			],
+			[
+				"Da",
+				"DataSet"
+			],
+			[
+				"dataset",
+				"dataset_path"
+			],
+			[
+				"type",
+				"chart_type"
+			],
+			[
+				"datase",
+				"dataset_path"
+			],
+			[
+				"try",
+				"try\tTry/Except/Finally"
+			],
+			[
+				"create",
+				"createCategory"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"dis",
+				"dist_to_destination"
+			],
+			[
+				"visi",
+				"airports_visited"
+			],
+			[
+				"cor",
+				"coords"
+			],
+			[
+				"air",
+				"airports_visited"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"ke",
+				"key_one"
+			],
+			[
+				"key",
+				"key_two"
+			],
+			[
+				"coo",
+				"coords"
+			],
+			[
+				"co",
+				"coordinates_two"
+			],
+			[
+				"line",
+				"line_length"
+			],
+			[
+				"f",
+				"filename_one"
+			],
+			[
+				"filename",
+				"filename_two"
+			],
+			[
+				"fil",
+				"filename_one"
+			],
+			[
+				"fie",
+				"filename_one"
+			],
+			[
+				"fi",
+				"filename_one"
+			],
+			[
+				"file",
+				"filename_two"
+			],
+			[
+				"pa",
+				"pattern"
+			],
+			[
+				"par",
+				"parttwo"
+			],
+			[
+				"part",
+				"partone"
+			],
+			[
+				"sta",
+				"stanza_item"
+			],
+			[
+				"st",
+				"stanza_item"
+			],
+			[
+				"s",
+				"stanza_item"
+			],
+			[
+				"date",
+				"DATETIME_INPUT_FORMATS"
+			],
+			[
+				"end",
+				"end_register_date"
+			],
+			[
+				"cle",
+				"cleaned_data"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 249.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"activate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu",
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu/reciVisu"
+	],
+	"file_history":
+	[
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu/manage.py",
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu/Procfile",
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu/reciVisu/local_settings.py",
+		"/Users/fbormann/Dropbox/reciVisu/reciVisu/reciVisu/wsgi.py",
+		"/Users/fbormann/Dropbox/webSedec/manage.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/topics/models.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/topics/templates/topics/list.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templatetags/subject_counter.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/subject_card.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/static/css/base/amadeus.css",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/local_settings.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/list_search.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/view.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/static/css/base/amadeus_responsive.css",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/settings.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/static/css/themes/black.css",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/list.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/topics/templates/resources/list.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/initial.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/list.html",
+		"/Users/fbormann/Desktop/davis/test/data.txt",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/students_group/templates/groups/index.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/forms.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/forms.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/templates/base.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/urls.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/models.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/create.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/subscribe.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/delete.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/update.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/static/subjects/js/modal_subject.js",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/utils.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/themes/forms.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/templates/subjects/_form.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/serializedata.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/static/subjects/js/subjects_card.js",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/static/js/course.js",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/tests/test_views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/urls.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/create.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templatetags/switchevenodd.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/update.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templatetags/__init__.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/home.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/locale/pt_BR/LC_MESSAGES/django.po",
+		"/Users/fbormann/Dropbox/webSedec/dashboards/templatetags/__init__.py",
+		"/Users/fbormann/Dropbox/webSedec/Procfile",
+		"/Users/fbormann/Dropbox/webSedec/webSedec/settings.py",
+		"/Users/fbormann/Dropbox/webSedec/webSedec/wsgi.py",
+		"/Users/fbormann/Dropbox/webSedec/webSedec/local_settings.py",
+		"/Users/fbormann/Dropbox/webSedec/.gitignore",
+		"/Users/fbormann/Dropbox/Projetos - 2017/webSedec/requirements.txt",
+		"/Users/fbormann/Dropbox/Projetos - 2017/recifeVisu/webSedec/requirements.txt",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/Procfile",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/runtime.txt",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/static/dashboards/data/sedec.csv",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/list_users.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/delete.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/locale/pt_BR/LC_MESSAGES/django.po",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/category_card.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/base.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/static/dashboards/css/dashboards.css",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/home.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/dataset_card.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/dataset_detail.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/views.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/models.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/admin.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/forms.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/webSedec/local_settings.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/webSedec/settings.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/urls.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/static/css/dashboards.css",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/subjects/admin.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/admin.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/urls.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/models.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/chartFactory.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/index.html",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/webSedec/dashboards/templates/dashboards/view.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/templates/categories/home_admin_content.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/categories/apps.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/forms.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/create.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/migrations/0001_initial.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/.coverage",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/README.md",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/models.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/runtests.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/tests/test_views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/list.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/home_admin_content.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/home_teacher_student_content.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/tests/__init__.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/home.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/courses/index.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/views.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/urls.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/models.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/apps.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/course/urls.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/forms.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/templates/users/login.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/templates/users/index.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/amadeus/templates/404.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/logs/models.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/urls.py",
+		"/Users/fbormann/Dropbox/Projetos - 2017/projeto-sedec/Notebooks/dados/156_cco_2016.csv",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/topic/topic_card.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/topic/update.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/topic/view.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/users/templates/users/search.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/subject/exam_item_actions.html",
+		"/Users/fbormann/Documents/Daniel - Belgium/plutokiller.py",
+		"/Users/fbormann/Documents/Daniel - Belgium/awol.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/topic/plutokiller.py",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/exercise/models.py",
+		"/Users/fbormann/Dropbox/Fuctura/Turma01/Package, Herança, Decorators/Pessoa.py",
+		"/Users/fbormann/Dropbox/Fuctura/Turma01/Package, Herança, Decorators/Funcionario.py",
+		"/Users/fbormann/Dropbox/Fuctura/Turma01/Package, Herança, Decorators/roteiro.txt",
+		"/Users/fbormann/Dropbox/Fuctura/Turma01/Package, Herança, Decorators/packagemanager.txt",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/subject/create.html",
+		"/Users/fbormann/Documents/amadeus/amadeuslms/courses/templates/course/datepicker.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"amadeus.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"webSedec",
+			"login",
+			"Group",
+			"File Link",
+			"iexact",
+			"tags",
+			"users-cloud",
+			"subject",
+			"topic",
+			"subject",
+			"category-card-items i",
+			"category-card-items",
+			"category-header i",
+			"session_security",
+			"tags",
+			"deleteview",
+			"createview",
+			"deleteview",
+			"course.js",
+			"ripples.min.js",
+			"ripples.js",
+			"material.min.js",
+			"material.js",
+			"dispatch",
+			"replicate",
+			"subscription date is due",
+			"breadcrumbs",
+			"subjects",
+			"submit",
+			"searchform",
+			"delete",
+			"DELETe",
+			"button",
+			"JsonResponse",
+			"subject",
+			"delete_subject",
+			"deleteView",
+			"delete",
+			"count_subjects",
+			"all",
+			"head",
+			"subject in subjects",
+			"queryset",
+			"coordinator",
+			"update",
+			"all",
+			"ValueError",
+			"self._errors",
+			"all",
+			"error",
+			"create",
+			"all",
+			"subject.students",
+			"HttpResponse",
+			"all",
+			".all()",
+			"visible",
+			"subject",
+			"all",
+			"category",
+			"all",
+			"list",
+			"visible",
+			"category.coordinators",
+			"coordinators",
+			"head",
+			"update",
+			"subjects",
+			"modal_subject",
+			"index",
+			"remove",
+			"subject",
+			"delete",
+			"block.super",
+			"len(",
+			"len",
+			"categories:index",
+			"login",
+			"list",
+			"manage categories",
+			"coordinators",
+			"users",
+			"sign up",
+			"dirs",
+			"dir",
+			"course",
+			"existe",
+			"system",
+			"roboto",
+			"locale",
+			"objeto",
+			"chartFactory",
+			"category",
+			"breadcru",
+			"item",
+			"padding-top",
+			"success",
+			"field",
+			"manager",
+			"manage users",
+			"static",
+			"error",
+			"course",
+			"remover",
+			"remove",
+			"remover",
+			"dropdown-menu",
+			"role",
+			"if",
+			"register",
+			"manage courses",
+			"admin",
+			"statistics",
+			"course",
+			"cpf",
+			"<<<HEAD",
+			"course",
+			"categories",
+			"courses",
+			"static",
+			"amadeus.css",
+			"password",
+			"url",
+			"search",
+			"trans",
+			"validation",
+			"adminuserForm",
+			"core"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"categories"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "reciVisu.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

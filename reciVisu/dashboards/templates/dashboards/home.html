@@ -1,0 +1,48 @@
+{% extends "dashboards/base.html" %}
+
+{% load static  %}
+
+{% block css %}
+ 	{{block.super}}
+	<link href="{% static "dashboards/css/dashboards.css" %}" rel="stylesheet" type="text/css">
+ 	<link href="{% static "webSedec/css/font-awesome.min.css" %}" rel="stylesheet" type="text/css">
+{% endblock css %}
+
+{% block javascript %}
+	{{block.super}}
+	<script src="{% static "dashboards/js/dashboards.js" %}"></script>
+	
+{% endblock javascript %}
+
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 col-lg-12 col-sm-12">
+		<h2  id="project-title">Recife visu</h2>
+		</div>
+
+		<p id="project-core-text" class="col-md-12">Este projeto foi criado por felipe henrique de almeida bormann de forma a fornecer a população de recife e profissionais de comunicações gráficos interessantes sobre a cidade de Recife. <br> Espero que outras pessoas baixem meus gráficos e o usem da melhor forma possível para fornecer informações sobre a cidade.</p>
+	</div>
+	<div class="row">
+	{% for dataset in datasets %}
+		{% include "dashboards/dataset_card.html" %}
+	
+	{% endfor %}
+	</div>
+	<div class="row user-info">
+		<img class="me" src="{% static "dashboards/img/profile.jpg" %}" alt="" />
+
+		<div class="social">
+		  <a href=""><i id="twitter" class="icon-twitter"></i></a>
+		  <a href="http://www.github.com/fbormann"><i id="github" class="fa fa-github"></i></a>
+		  <i id="stack" class="fa fa-stackexchange"></i>
+		  <a><i id="linkedin" class="fa fa-linkedin-sign"></i></a>
+		  <i id="code" class="icon-code"></i>
+		  <i id="plus" class="icon-google-plus-sign"></i>
+		  <i id="mail" class="icon-envelope"></i> 
+		</div>
+
+	</div>
+</div>
+
+{% endblock content %}

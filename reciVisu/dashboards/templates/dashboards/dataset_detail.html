@@ -1,0 +1,11 @@
+<h1> {{object.name}} </h1>
+
+<h4> {{object.description}} </h4>
+
+<div>
+<p> Você pode analisar qualquer uma dessas variáveis utilizando um dos possíveis gráficos que podemos construir, até então só fornecemos suporte à gráficos univariados</p>
+{% for variable in variables %}
+		<a href="{% url 'dashboards:plot_variable' object.name variable.name %}"><p>{{variable.name}}</p></a>
+{% endfor %}
+
+</div>
